@@ -88,6 +88,7 @@ h1 {
 
 .leader:hover .leader-info {
     display: block;
+    transition: 1s;
 }
 
 header {
@@ -97,31 +98,31 @@ header {
     justify-content: center;
   }
   
-  nav ul {
+nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-  }
+}
   
-  nav li {
+nav li {
     float: left;
-  }
+}
   
-  nav li a {
+nav li a {
     display: block;
     color: #666;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-  }
+}
   
-  nav li a:hover:not(.active) {
+nav li a:hover:not(.active) {
     background-color: #ddd;
-  }
+}
   
-  nav li a.active {
+nav li a.active {
     color: white;
     background-color: #4CAF50;
-  }
+}
   

@@ -18,7 +18,6 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
-
 }
 
 h1 {
@@ -56,12 +55,14 @@ h1 {
     font-weight: bold;
     color: #333;
     padding: 10px;
+    font-family: "HSESans-SemiBold";
 }
 
 .leader-years {
     font-size: 18px;
     color: #999;
     padding: 10px;
+    font-family: "HSESans-Black";
 }
 
 .leader-info {
@@ -75,6 +76,37 @@ h1 {
     padding: 20px;
     overflow-y: auto;
     display: none;
+    font-family: "HSESans-Thin";
+}
+
+@font-face {
+    font-family: "HSESans-Black";
+    src: url("/fonts/HSESans-Black.otf");
+}
+
+@font-face {
+    font-family: "HSESans-Bold";
+    src: url("/fonts/HSESans-Bold.otf");
+}
+
+@font-face {
+    font-family: "HSESans-Italic";
+    src: url("/fonts/HSESans-Italic.otf");
+}
+
+@font-face {
+    font-family: "HSESans-Regular";
+    src: url("/fonts/HSESans-Regular.otf");
+}
+
+@font-face {
+    font-family: "HSESans-SemiBold";
+    src: url("/fonts/HSESans-SemiBold.otf");
+}
+
+@font-face {
+    font-family: "HSESans-Thin";
+    src: url("/fonts/HSESans-Thin.otf");
 }
 
 .leader-info p {

@@ -47,6 +47,10 @@
     padding: 20px 30px;
     font-family: Verdana, sans-serif;   
 }
+.slideshow-item-text:hover{
+    background-color: #fff;;
+    color: rgba(0,0,0,0.7);
+}
 .slideshow-item-text h5 {
     font-size: 22px;
     margin: 0 0 10px 0;

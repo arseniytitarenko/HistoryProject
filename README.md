@@ -1,1 +1,0 @@
-https://arseniytitarenko.github.io/HistoryProject/
